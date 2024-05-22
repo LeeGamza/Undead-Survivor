@@ -43,7 +43,7 @@ public class Weapon : MonoBehaviour
         // .. Test code
         if (Input.GetButtonDown("Jump"))
         {
-            LevelUp(20, 5);
+            LevelUp(10, 1);
         }
     }
     public void LevelUp(float damage, int count)
